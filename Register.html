@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediCare</title>
+    <link rel="stylesheet" href="RegisterStyle.css">
+</head>
+
+
+
+<body >
+
+    <div class="bg"></div>
+
+    <header>
+   
+
+        <input class="mobileMenu" type="checkbox" id="mobileMenu"/>
+        <div class="mobile">
+            <section class="icon">
+                <img src="assets/img/icon.png" width="160px">
+            </section>
+        
+            <label class="hamburger" for="mobileMenu">
+                <span class="ham">&#9776;</span>
+            </label>
+
+        </div>
+
+        <nav>
+            <input class="mobileMenu" type="checkbox" id="mobileMenu"/>
+            <a class="link" href="#">Home</a>
+            <div class="dropdown">
+                <a>Products</a>
+                    <div class="dropdownChild">
+                        <a href="./Healthcare.html">Healthcare</a>
+                        <a href="">Cosmetic</a>
+                        <a href="">Misc.</a>
+                    </div>
+            </div>
+            <a class="link" href="./AboutUs.html">About Us</a>
+            <a class="link" href="./Register.html">Register</a>
+            <a class="button"href="./Login.html">Login</a>
+            
+        </nav>
+        
+
+    </header>
+
+
+
+    <div class="main">
+        <form class="mainInside" action="home.html">
+            <div class="title">Register</div>
+
+            <div class="inputName">
+                <input type="text" placeholder=" " id="names" required>
+                <label class="name" for="names">Name</label>
+            </div>
+
+            <div class="inputEmail">
+                <input type="email" placeholder=" " id="emails" required>
+                <label class="name" for="emails">Email</label>
+            </div>
+
+            <div class="chooseGender">
+                <label>Gender</label>
+                    <div class="genderChoice">
+                        <input type="radio" name="gender2" id="male" required>
+                        <label class="genderText" for="male">Male</label>
+                        <input type="radio" name="gender2" id="female" required>
+                        <label class="genderText" for="female">Female</label>
+                    </div>
+            </div>
+
+            <div class="chooseCity">
+
+                <label for="cityChoice">City</label>
+
+                    <select name="" id="city" required>
+                        <option value="">Choose an option</option>
+                        <option value="pontianak">Pontianak</option>
+                        <option value="singkawang">Singkawang</option>
+                        <option value="jakarta">Jakarta</option>
+                        <option value="banjarmasin">Banjarmasin</option>
+                        <option value="bali">Bali</option>
+                    </select>
+            </div>
+
+            <div class="inputPassword">
+                <input type="password" placeholder=" " id="passwords" required>
+                <label class="name" for="passwords">Password</label>
+            </div>
+
+            <div class="inputPasswordConfirm">
+                <input type="password" placeholder=" " id="confirmPasswords" required>
+                <label class="name" for="confirmPasswords">Confirm Password</label>
+            </div>
+
+
+            
+            
+            <div class="buttonRegister"><button type="submit">Register</button></div>
+        </form>
+
+    </div>
+    <footer> 
+        <div class="bottom"> 
+            <section class="sosmed">
+                <a href="https://twitter.com/" target="_blank"><img src="assets/img/twitter.png"  width="20px"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="assets/img/facebook.png" width="20px"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="assets/img/ig.png" width="20px"></a>
+            </section>
+            <div class="copyright" >Copyright © 2022 Jennifer Ardelia Limicia, All Rights Reserved.</div>
+        </div>
+        
+    </footer>
+
+    <script src = "validation.js"></script>  
+</body>
+    
+</html>
